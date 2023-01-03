@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Library"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn_SeeAllBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="See all Books"
+        />
+    <Button
+        android:id="@+id/btn_CReadBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Currently Reading Books"
+        />
+    <Button
+        android:id="@+id/btn_AReadBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Already Read Books"
+        />
+    <Button
+        android:id="@+id/btn_YWishList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Your Wishlist"
+        />
+    <Button
+        android:id="@+id/btn_SYourFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="See Your Favorite"
+        />
+    <Button
+
+        android:id="@+id/btn_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="About"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by GaCon"/>
+
+
+</LinearLayout>
